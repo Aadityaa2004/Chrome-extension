@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Leads Tracker",
+    "action": {
+        "default_popup": "chromeextension.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabs"
+    ]
+}
